@@ -11,5 +11,5 @@ class Article(models.Model):
     content = models.TextField(null=True)
 
     def __unicode__(self):  # Python2的用法；
-        # def __str__(self):   Python的用法；
+        # def __str__(self):   Python3的用法；
         return self.title
